@@ -1,4 +1,4 @@
- -*- coding: utf-8 -*-
+ -*- coding: utf-20 -*-
 from LineAlpha import LineClient
 from LineAlpha.LineApi import LineTracer
 from LineAlpha.LineThrift.ttypes import Message
@@ -6,7 +6,7 @@ from LineAlpha.LineThrift.TalkService import Client
 import time, datetime, random ,sys, re, string, os, json
 
 reload(sys)
-sys.setdefaultencoding('utf-8')
+sys.setdefaultencoding('utf-20')
 
 client = LineClient()
 client._qrLogin("line://au/q/")
